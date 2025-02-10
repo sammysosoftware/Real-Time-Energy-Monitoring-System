@@ -1,106 +1,110 @@
-# Off-Grid Solar Energy System – Custom RV Prototype
+# Real-Time Energy Monitoring System
 
 ## Overview
 
-The **Off-Grid Solar Energy System** is a high-performance **mobile solar power system** designed for a **custom-built camper trailer**. This project serves as both a **prototype for future commercial applications** and a **hands-on R&D effort** to develop **high-efficiency solar energy solutions for off-grid living**.
+The **Real-Time Energy Monitoring System** is a full-stack solution designed to track, analyze, and visualize energy consumption in real-time. Built using **Django, React.js, PostgreSQL, and Raspberry Pi**, this system enables users to **monitor voltage, current, and power usage** across multiple circuits, ensuring **energy efficiency, cost savings, and system reliability**.
 
-Beyond just electrical upgrades, this build also involved **structural modifications, enhanced insulation, custom cabinetry, and multiple charging systems**, making the trailer **energy-efficient, self-sustaining, and optimized for extended off-grid use**.
+Originally developed as part of a **home automation and sustainability initiative**, this system integrates **hardware sensors with software analytics** to provide actionable insights into energy usage patterns. The project was initiated after adding a **100-amp service panel** in the garage, which services **over a dozen circuits** across the house and property.
+
+---
+
+## **Electrical System & Infrastructure Upgrades**
+✔ **100-Amp Electrical Subpanel** – Installed to support expanded electrical capacity.  
+✔ **220V Electric Car Charger** – Dedicated circuit for **Tesla charging station**.  
+✔ **8x 20A GFCI Circuits** – Providing power to **sump pumps, outdoor receptacles, and garage**.  
+✔ **Multiple Sump Pump Installations** – Replaced and upgraded **two sump pumps**, including a **10-foot deep well pump**.  
+✔ **Underground PVC Drainage System** – Dug a **20-foot trench** for routing water drainage.  
+✔ **High-Quality Wiring Materials** – Utilized **Romex 12/2, 12/3, and 12/2 UFB wiring** with appropriate conduit.  
+✔ **Multiple Junction Boxes** – Installed for proper load distribution and ease of maintenance.  
+✔ **Circuit Monitoring System** – Integrated **Raspberry Pi with ADS1115 modules** for **analog-to-digital conversion of voltage and current data**.  
+✔ **WiFi-Based Data Transmission** – Sends **real-time sensor data** to a **cloud-hosted PostgreSQL database** for storage and analysis.  
+
+This extensive electrical work saved an estimated **$10,000-$20,000** in contractor costs and ensured a **code-compliant and scalable power system** for the property.
 
 ---
 
 ## **Key Features**
-✔ **5 kWh Battery Bank (Expandable to 20 kWh)** – Stores energy for long-term off-grid use.  
-✔ **800W High-Density Solar Panels** – Capable of generating **over 3 kW in full sun**.  
-✔ **2000W Pure Sine Inverter** – Converts DC to AC power for household appliances.  
-✔ **80A MPPT Smart Solar Charge Controller** – Optimizes energy harvesting.  
-✔ **DC-to-DC Charger** – Allows **passive charging** from the tow vehicle to the trailer battery bank.  
-✔ **AC-to-DC Charger** – Enables **direct charging from shore power** to the battery bank.  
-✔ **12V & 24V Circuits** – Supports **fast charging, LED lighting, and system redundancy**.  
-✔ **Smart Energy Monitoring** – Circuit-level tracking and real-time analytics.  
-✔ **Shore Power/Battery Switchover** – Seamless transition between **grid power and solar storage**.  
-✔ **AC/DC Distribution Panels** – Circuit breaker-protected, **code-compliant wiring and safety features**.  
-✔ **Remote Shutoff Switches** – Independent control over all major systems and circuits.  
-✔ **Enhanced Thermal Insulation** – Walls, ceiling, and floors redesigned for **sub-zero temperature resilience**.  
-✔ **Custom Interior Buildout** – Handmade hardwood cabinetry, benches, and a collapsible Murphy-style bed.  
+✔ **Live Data Tracking** – Monitor voltage, current, and power in real-time.  
+✔ **Django Backend** – Handles data collection, storage, and API services.  
+✔ **React.js Frontend** – Provides interactive dashboards for data visualization.  
+✔ **PostgreSQL Database** – Ensures structured and scalable data management.  
+✔ **Raspberry Pi Integration** – Captures sensor data from energy monitoring hardware.  
+✔ **ADS1115 Modules for Analog-to-Digital Conversion** – Converts **voltage and current readings** from sensors into digital data.  
+✔ **WiFi-Enabled Data Transmission** – Sensor data is **sent wirelessly** to a **cloud database** for real-time monitoring.  
+✔ **Graphical Analytics** – Generates real-time and historical energy usage trends.  
+✔ **Alert System** – Detects anomalies and sends notifications for irregular power usage.  
+✔ **Historical Reporting** – Enables users to analyze past energy consumption patterns.  
+✔ **Mobile-Friendly UI** – Accessible via web and mobile devices for remote monitoring.  
+✔ **Secure Authentication** – User login and role-based access control for data protection.
 
 ---
 
-## **Structural & Insulation Upgrades**
-- **Wall System Upgrade:** Increased thickness from **1 inch to 3.5 inches**, reinforcing structure and adding insulation.  
-- **Ceiling & Floor Insulation:** Installed **4-6 inches of closed-cell foam** to significantly improve **thermal efficiency**.  
-- **Water Tank Insulation:** All **three water tanks** are now fully insulated, ensuring **functionality in freezing temperatures**.  
-- **Cold Weather Performance:** Furnace can **easily maintain 70°F inside temperature**, even in **below-freezing outdoor conditions**.  
+## **Technical Architecture**
+- **Frontend:** React.js + Chart.js for real-time data visualization.  
+- **Backend:** Django REST Framework for API and data handling.  
+- **Database:** PostgreSQL with optimized queries for efficient energy data retrieval.  
+- **Hardware:** Raspberry Pi + ADS1115 modules for analog-to-digital conversion of circuit data.  
+- **Communication:** WiFi-based data transmission to cloud-hosted PostgreSQL database.  
+- **Processing:** Real-time updates using WebSockets between backend and frontend.
 
 ---
 
-### **Custom Interior Buildout**
-- **Overhead Storage Cabinets** – Handcrafted with **oak wood panels** and **1x2-inch hardwood studs**.  
-- **Seating & Benches** – Two **built-in benches** with storage compartments.  
-- **Collapsible Murphy-Style Bed** – Space-saving design, allowing for more open living space.  
-- **LED Lighting System** – Custom-configured **dimmable LED lighting** throughout the interior.  
-- **Fully Enclosed 3' x 3' Wet Room** – Houses a **comfortable standing shower, foot-operated full-sized toilet, sink, and cabinet**.  
-- **Full-Sized Propane-Operated 12V Refrigerator** – Energy-efficient and capable of off-grid operation.  
-- **Powerful Furnace** – Reinforced with **extra-insulated circuit boards and wiring** to withstand heat and stress.  
-- **Full-Sized Kitchen Sink** – Large enough for comfortable dishwashing and meal prep.  
-- **Three-Burner Propane Stove** – Provides reliable cooking power for off-grid and mobile living.  
-- **1500W Electric Induction Cooktop** – Energy-efficient alternative for high-precision cooking.  
-- **Custom Electrical Cabinet** – Securely **houses all main electrical components**, ensuring **safety, proper ventilation, and easy maintenance**.  
+## **System Setup & Installation**
+### **1️⃣ Hardware Setup**
+- Connect **current and voltage sensors** to the **ADS1115 modules** on the **Raspberry Pi GPIO**.
+- Configure the **Raspberry Pi to send data via WiFi** to the cloud database.
+- Install **necessary drivers and libraries** for data acquisition.
+
+### **2️⃣ Software Setup**
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/real-time-energy-monitoring.git
+   cd real-time-energy-monitoring
+   ```
+2. **Backend Setup (Django & PostgreSQL)**
+   ```sh
+   pip install -r requirements.txt
+   python manage.py migrate
+   python manage.py runserver
+   ```
+3. **Frontend Setup (React.js)**
+   ```sh
+   cd frontend
+   npm install
+   npm start
+   ```
+4. **Deploy & Monitor:**
+   - Ensure **Raspberry Pi is collecting and transmitting sensor data**.
+   - Use the **frontend dashboard to monitor and analyze energy usage in real-time**.
 
 ---
 
-## **Technical Implementation**
-### **1️⃣ Electrical System**
-- **Battery Bank:** 5 kWh lithium-ion (expandable to 20 kWh).  
-- **Solar Charge Controller:** 80A MPPT (Maximum Power Point Tracking).  
-- **Inverter:** 2000W pure sine wave inverter for AC power distribution.  
-- **Wiring & Safety:**  
-  - **DC Circuits:** 12V & 24V, **circuit-breaker protected**.  
-  - **AC Circuits:** 6 dedicated 120V lines via **AC breaker panel**.  
-  - **Junction boxes & disconnects** for compliance and safety.  
-- **DC-to-DC Charger:** **Passively charges the battery bank from the tow vehicle's alternator** during travel.  
-- **AC-to-DC Charger:** **Direct shore power charging to the battery bank**, allowing efficient recharging when grid power is available.  
-
-### **2️⃣ Structural & System Integration**
-- **Reinforced Insulation:** Maximizes energy efficiency and temperature regulation.  
-- **Plumbing & Water Storage:** Custom-built solution for self-sustained use.  
-- **Lighting:** Energy-efficient **LED lighting with remote control & dimmers**.  
-
----
-
-## **Project Scope & Objectives**
-This project was initiated as a **hands-on R&D effort** to develop a **modular, high-end off-grid energy solution** for custom RV applications. The goal was to:  
-1. **Prototype a scalable off-grid power system.**  
-2. **Understand and reverse engineer existing solar and RV energy solutions.**  
-3. **Develop a potential commercial product for custom RV builds.**  
-
-🚀 **Estimated cost savings:** Over **$15,000** in labor by self-engineering the system.  
-🏗️ **Hands-on implementation:** Electrical, mechanical, and structural engineering.  
+## **Use Cases**
+- **Home Energy Optimization:** Track and reduce unnecessary energy consumption.
+- **Industrial Power Monitoring:** Identify inefficiencies in manufacturing power usage.
+- **Smart Grid Applications:** Enhance grid stability with real-time data analytics.
+- **Solar Power Systems:** Monitor solar generation and grid reliance.
 
 ---
 
 ## **Future Enhancements**
-- **Smart Energy Management System (AI-based)**  
-- **IoT Connectivity for Remote Monitoring**  
-- **Water Filtration & Heating Integration**  
-- **Modular Battery Expansion for Commercial Applications**  
+- **AI-based Predictive Analytics** for energy forecasting.
+- **IoT Connectivity** for integrating with smart home automation.
+- **Cloud Data Storage & Remote Access** for enhanced availability.
+- **Customizable User Alerts & Reports** for better energy management.
 
 ---
 
-## **How to Use**
-1. **Charge the battery bank** via **solar panels, DC-to-DC charging from tow vehicle, or AC-to-DC shore power**.  
-2. **Monitor power consumption** using real-time data.  
-3. **Manage DC & AC power loads** through breaker panels.  
-4. **Control major systems via remote shutoff switches.**  
-
----
-
-## **License**
-📜 This project is open-source under the **MIT License**.
+## **Intellectual Property & Usage Disclaimer**
+This project and all associated documentation are the **intellectual property of Samuel Alaskewicz**. **All Rights Reserved.**  
+Unauthorized reproduction, distribution, modification, or commercial use of any part of this work is strictly **prohibited** without explicit **written consent** from the owner.  
+Any attempt to claim ownership, sell, or redistribute any portion of this project may result in legal action.
 
 ---
 
 ## **Contributors**
 **Samuel Alaskewicz** - Lead Developer, Systems Engineer  
 
-📌 **GitHub Repository:** [[https://github.com/sammysosoftware/Real-Time-Energy-Monitoring-System](https://github.com/sammysosoftware/Real-Time-Energy-Monitoring-System)]  
-📌 **Project QR Code:** ![QR Code](Real-Time-Energy-Monitoring-System.png)  
+📌 **GitHub Repository:** [https://github.com/sammysosoftware/Real-Time-Energy-Monitoring-System]
+
+
