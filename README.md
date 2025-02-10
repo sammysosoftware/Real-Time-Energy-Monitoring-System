@@ -2,9 +2,9 @@
 
 ## Overview
 
-The **Off-Grid Solar Energy System** is a high-performance **mobile solar power system** designed for a custom-built camper trailer. This project serves as both a **prototype for future commercial applications** and a personal R&D effort to develop **high-efficiency solar energy solutions for off-grid living**.
+The **Off-Grid Solar Energy System** is a high-performance **mobile solar power system** designed for a **custom-built camper trailer**. This project serves as both a **prototype for future commercial applications** and a **hands-on R&D effort** to develop **high-efficiency solar energy solutions for off-grid living**.
 
-The system integrates **renewable energy components**, **custom electrical circuits**, and **real-time energy monitoring**, offering **independence from traditional power grids**. The build involved **reverse engineering, designing, and implementing** all core systems, including **electrical, structural, and plumbing components**.
+Beyond just electrical upgrades, this build also involved **structural modifications, enhanced insulation, custom cabinetry, and multiple charging systems**, making the trailer **energy-efficient, self-sustaining, and optimized for extended off-grid use**.
 
 ---
 
@@ -13,11 +13,31 @@ The system integrates **renewable energy components**, **custom electrical circu
 ✔ **800W High-Density Solar Panels** – Capable of generating **over 3 kW in full sun**.  
 ✔ **2000W Pure Sine Inverter** – Converts DC to AC power for household appliances.  
 ✔ **80A MPPT Smart Solar Charge Controller** – Optimizes energy harvesting.  
+✔ **DC-to-DC Charger** – Allows **passive charging** from the tow vehicle to the trailer battery bank.  
+✔ **AC-to-DC Charger** – Enables **direct charging from shore power** to the battery bank.  
 ✔ **12V & 24V Circuits** – Supports **fast charging, LED lighting, and system redundancy**.  
 ✔ **Smart Energy Monitoring** – Circuit-level tracking and real-time analytics.  
 ✔ **Shore Power/Battery Switchover** – Seamless transition between **grid power and solar storage**.  
 ✔ **AC/DC Distribution Panels** – Circuit breaker-protected, **code-compliant wiring and safety features**.  
 ✔ **Remote Shutoff Switches** – Independent control over all major systems and circuits.  
+✔ **Enhanced Thermal Insulation** – Walls, ceiling, and floors redesigned for **sub-zero temperature resilience**.  
+✔ **Custom Interior Buildout** – Handmade hardwood cabinetry, benches, and a collapsible Murphy-style bed.  
+
+---
+
+## **Structural & Insulation Upgrades**
+- **Wall System Upgrade:** Increased thickness from **1 inch to 3.5 inches**, reinforcing structure and adding insulation.  
+- **Ceiling & Floor Insulation:** Installed **4-6 inches of closed-cell foam** to significantly improve **thermal efficiency**.  
+- **Water Tank Insulation:** All **three water tanks** are now fully insulated, ensuring **functionality in freezing temperatures**.  
+- **Cold Weather Performance:** Furnace can **easily maintain 70°F inside temperature**, even in **below-freezing outdoor conditions**.  
+
+---
+
+## **Custom Interior Buildout**
+- **Overhead Storage Cabinets** – Handcrafted with **oak wood panels** and **1x2-inch hardwood studs**.  
+- **Seating & Benches** – Two **built-in benches** with storage compartments.  
+- **Collapsible Murphy-Style Bed** – Space-saving design, allowing for more open living space.  
+- **LED Lighting System** – Custom-configured **dimmable LED lighting** throughout the interior.  
 
 ---
 
@@ -30,6 +50,8 @@ The system integrates **renewable energy components**, **custom electrical circu
   - **DC Circuits:** 12V & 24V, **circuit-breaker protected**.  
   - **AC Circuits:** 6 dedicated 120V lines via **AC breaker panel**.  
   - **Junction boxes & disconnects** for compliance and safety.  
+- **DC-to-DC Charger:** **Passively charges the battery bank from the tow vehicle's alternator** during travel.  
+- **AC-to-DC Charger:** **Direct shore power charging to the battery bank**, allowing efficient recharging when grid power is available.  
 
 ### **2️⃣ Structural & System Integration**
 - **Reinforced Insulation:** Maximizes energy efficiency and temperature regulation.  
@@ -58,7 +80,7 @@ This project was initiated as a **hands-on R&D effort** to develop a **modular, 
 ---
 
 ## **How to Use**
-1. **Charge the battery bank** via solar panels or shore power.  
+1. **Charge the battery bank** via **solar panels, DC-to-DC charging from tow vehicle, or AC-to-DC shore power**.  
 2. **Monitor power consumption** using real-time data.  
 3. **Manage DC & AC power loads** through breaker panels.  
 4. **Control major systems via remote shutoff switches.**  
@@ -74,4 +96,4 @@ This project was initiated as a **hands-on R&D effort** to develop a **modular, 
 **Samuel Alaskewicz** - Lead Developer, Systems Engineer  
 
 📌 **GitHub Repository:** [Insert Link Here]  
-📌 **Project QR Code:** ![QR Code](github_qr_code.png)  # Real-Time-Energy-Monitoring-System
+📌 **Project QR Code:** ![QR Code](github_qr_code.png)  
