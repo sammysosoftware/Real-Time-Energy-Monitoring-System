@@ -42,10 +42,11 @@ This document details how energy data is collected, logged, and analyzed to impr
 {
     "timestamp": "2024-11-10 14:30:00",
     "circuit": "Sump Pump 1",
-    "current": 2.3,
+    "current": 3.5,
     "voltage": 120.5,
-    "power": 276,
-    "energy_usage": 0.15
+    "power": 420,
+    "energy_usage": 0.35,
+    "surge_power": 1260
 }
 ```
 
