@@ -33,11 +33,18 @@ Beyond just electrical upgrades, this build also involved **structural modificat
 
 ---
 
-## **Custom Interior Buildout**
+### **Custom Interior Buildout**
 - **Overhead Storage Cabinets** – Handcrafted with **oak wood panels** and **1x2-inch hardwood studs**.  
 - **Seating & Benches** – Two **built-in benches** with storage compartments.  
 - **Collapsible Murphy-Style Bed** – Space-saving design, allowing for more open living space.  
 - **LED Lighting System** – Custom-configured **dimmable LED lighting** throughout the interior.  
+- **Fully Enclosed 3' x 3' Wet Room** – Houses a **comfortable standing shower, foot-operated full-sized toilet, sink, and cabinet**.  
+- **Full-Sized Propane-Operated 12V Refrigerator** – Energy-efficient and capable of off-grid operation.  
+- **Powerful Furnace** – Reinforced with **extra-insulated circuit boards and wiring** to withstand heat and stress.  
+- **Full-Sized Kitchen Sink** – Large enough for comfortable dishwashing and meal prep.  
+- **Three-Burner Propane Stove** – Provides reliable cooking power for off-grid and mobile living.  
+- **1500W Electric Induction Cooktop** – Energy-efficient alternative for high-precision cooking.  
+- **Custom Electrical Cabinet** – Securely **houses all main electrical components**, ensuring **safety, proper ventilation, and easy maintenance**.  
 
 ---
 
