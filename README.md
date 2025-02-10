@@ -95,5 +95,5 @@ This project was initiated as a **hands-on R&D effort** to develop a **modular, 
 ## **Contributors**
 **Samuel Alaskewicz** - Lead Developer, Systems Engineer  
 
-📌 **GitHub Repository:** [Insert Link Here]  
-📌 **Project QR Code:** ![QR Code](github_qr_code.png)  
+📌 **GitHub Repository:** [[https://github.com/sammysosoftware/Real-Time-Energy-Monitoring-System](https://github.com/sammysosoftware/Real-Time-Energy-Monitoring-System)]  
+📌 **Project QR Code:** ![QR Code](Real-Time-Energy-Monitoring-System.png)  
