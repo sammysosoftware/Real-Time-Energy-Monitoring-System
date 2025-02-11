@@ -6,7 +6,7 @@ The **Real-Time Energy Monitoring System** is a full-stack solution designed to 
 
 Originally developed as part of a **home automation and sustainability initiative**, this system integrates **hardware sensors with software analytics** to provide actionable insights into energy usage patterns. The project was initiated after adding a **100-amp service panel** in the garage, which services **over a dozen circuits** across the house and property.
 
-System-Overview.md
+Real-Time-Energy-Monitoring-System/System-Overview.md
 ---
 
 ## **Electrical System & Infrastructure Upgrades**
